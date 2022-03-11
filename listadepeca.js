@@ -5,7 +5,7 @@ if (listadepecas.length <= 10) {
 
 for (let index = 0; index < listadepecas.length; index ++){
     const pecaatual = listadepecas[index];
-    if(pecaatual.length < 3){
+    if(pecaatual.length < 3){  
         console.log(pecaatual + ': a peça possui nome inferior a 3 caracteres e não pode ser cadastrada');
     } else 
     console.log(pecaatual + ': a peça pode ser cadastrada');
